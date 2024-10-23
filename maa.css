@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap');
+*{
+    
+      font-family: "Sixtyfour Convergence", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0,
+        "XELA" 0,
+        "YELA" 0;
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar article{
+    display: flex;
+
+}
+.navbar article div{
+    margin: 10px;
+}
+
+.navbar article.free::after{
+    content:"Learn  more";
+    background-color: black;
+    color: white;
+    font-weight:600 ;
+    margin-left: 5px;
+    padding: 0px 10px 0px 10px;
+}
+
+._4option div{
+     position: fixed;
+     right: 0px;
+     top: 200px;
+
+}
+
+._4option {
+     position: fixed;
+     right: 0px;
+     top: 200px;
+     
+}    
+
+
+#phoneicon{
+    background-color: black;
+    color: yellow;
+    border: 50%;
+    padding: 20px;
+    font-size:20px ;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+
+
+}

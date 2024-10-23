@@ -1,0 +1,21 @@
+*{
+    background-image: url(./ADITYA.jpg);
+    
+    width: 100%;
+    height: 70vh;
+    background-color: no-repeat;
+    background-color: cover;
+    overflow: hidden;
+}
+#hero article{
+    position: relative;
+    top: 400px;
+    background: rgba(0,0,0,0.7);
+
+    
+    
+}
+#hero article div{
+    font-size: 48px;
+    color: white;
+}

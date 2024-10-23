@@ -1,0 +1,18 @@
+.card article{
+     width: 200px;
+     height: 200px;
+     background-color: aqua;
+     margin: 20px;
+     /* border-radius:50% ; */
+     box-shadow: 30px 30px 4px 5px rgb(149, 149, 223);
+     /* x y blur spread color */
+     border-radius: 5px;
+     border: 2px dashed black;
+     /* border: 2px dotted black; */
+     
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
